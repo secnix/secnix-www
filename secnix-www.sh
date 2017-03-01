@@ -65,5 +65,13 @@ curl -o- https://bootstrap.pypa.io/get-pip.py | python
 # Install virtualenv
 pip install virtualenv
 
+# Install Ansible
+yum install -y gcc python-devel openssl-devel
+pip install ansible
+
 # Install ansible-container
 pip install ansible-container
+
+# Generate an ssh key go be trusted locally
+su -c "ssh-keygen -f ~vagrant/.ssh/id_rsa -b4096 -qP ''" vagrant
+cat ~vagrant/.ssh/id_rsa.pub >> ~vagrant/.ssh/authorized_keys
