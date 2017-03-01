@@ -3,6 +3,13 @@
 This is configuration used to model, develop and replicate errors for
 www.secnix.com.
 
+## Install
+
+You need to install Virtualbox with the extension pack, vagrant and the
+vagrant-reload plugin. 
+
+`vagrant plugin install vagrant-reload`
+
 ## Use
 
 In order to use this repo, please change directories to the directory
