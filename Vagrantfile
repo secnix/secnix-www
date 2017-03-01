@@ -9,4 +9,5 @@ Vagrant.configure(2) do |config|
     vb.cpus = "2"
   end
   config.vm.provision "shell", path: "secnix-www.sh"
+  config.vm.provision "reload"
 end
