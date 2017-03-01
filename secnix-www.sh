@@ -44,6 +44,19 @@ fi
 # Catch errors and gracefully exit
 trap cleanup EXIT INT TERM
 
+# Ensure the familiar interface names are used
+grep net.ifnames /etc/default/grub && grep biosdevname /etc/default/grub || \
+{ sed -i 's/GRUB_CMDLINE_LINUX=""/GRUB_CMDLINE_LINUX="net.ifnames=0 biosdevname=0"/' /etc/default/grub && \
+  grub2-mkconfig -o /boot/grub2/grub.cfg ; }
+mv /etc/sysconfig/network-scripts/ifcfg-enp0s3 /etc/sysconfig/network-scripts/ifcfg-eth0 || /bin/true
+mv /etc/sysconfig/network-scripts/ifcfg-enp0s8 /etc/sysconfig/network-scripts/ifcfg-eth1 || /bin/true
+sed -i 's/DEVICE=.*/DEVICE="eth0"/' /etc/sysconfig/network-scripts/ifcfg-eth0
+sed -i 's/NAME=.*/NAME="eth0"/' /etc/sysconfig/network-scripts/ifcfg-eth0
+sed -i 's/NM_CONTROLLED=.*/NM_CONTROLLED="yes"/' /etc/sysconfig/network-scripts/ifcfg-eth1
+sed -i 's/DEVICE=.*/DEVICE="eth1"/' /etc/sysconfig/network-scripts/ifcfg-eth1
+sed -i 's/NAME=.*/NAME="eth1"/' /etc/sysconfig/network-scripts/ifcfg-eth1
+nmcli connection reload
+
 # Install the latest updates
 yum update -y
 
@@ -66,12 +79,15 @@ curl -o- https://bootstrap.pypa.io/get-pip.py | python
 pip install virtualenv
 
 # Install Ansible
-yum install -y gcc python-devel openssl-devel
+yum install -y gcc python-devel openssl-devel libffi-devel
 pip install ansible
 
 # Install ansible-container
 pip install ansible-container
 
 # Generate an ssh key go be trusted locally
-su -c "ssh-keygen -f ~vagrant/.ssh/id_rsa -b4096 -qP ''" vagrant
-cat ~vagrant/.ssh/id_rsa.pub >> ~vagrant/.ssh/authorized_keys
+if [ ! -f ~vagrant/.ssh/id_rsa ]
+then
+  su -c "ssh-keygen -f ~vagrant/.ssh/id_rsa -b4096 -qP ''" vagrant
+  cat ~vagrant/.ssh/id_rsa.pub >> ~vagrant/.ssh/authorized_keys
+fi
