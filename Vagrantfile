@@ -10,4 +10,5 @@ Vagrant.configure(2) do |config|
   end
   config.vm.provision "shell", path: "secnix-www.sh"
   config.vm.provision "reload"
+  config.vm.provision "shell", inline: "ifup eth1 || /bin/true", run: "always"
 end
