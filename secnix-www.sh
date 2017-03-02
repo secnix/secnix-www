@@ -74,6 +74,10 @@ sed -i 's/DEVICE=.*/DEVICE="eth1"/' /etc/sysconfig/network-scripts/ifcfg-eth1
 sed -i 's/NAME=.*/NAME="eth1"/' /etc/sysconfig/network-scripts/ifcfg-eth1
 nmcli connection reload
 
+# Enable ip forwarding
+echo 'net.ipv4.ip_forward = 1' > /etc/sysctl.d/10-ip_forward.conf
+sysctl --system
+
 # Install the latest updates
 yum update -y
 
