@@ -102,7 +102,7 @@ pip install ansible
 # Install ansible-container
 pip install ansible-container
 
-# Generate an ssh key go be trusted locally
+# Generate an ssh key to be trusted locally
 if [ ! -f ~vagrant/.ssh/id_rsa ]
 then
   su -c "ssh-keygen -f ~vagrant/.ssh/id_rsa -b4096 -qP ''" vagrant
