@@ -26,7 +26,7 @@ $ vagrant ssh
 ## Environment
 
 At this point, you have a fully functioning system with all prerequisites
-installed. The director in the box `/vagrant` contains all the contents
+installed. The directory in the box `/vagrant` contains all the contents
 in this repository. Therefore, anything changed in this repository in the box
 will stay resident on the host computer. You can then use your host computer
 to maintain this Git repository.
