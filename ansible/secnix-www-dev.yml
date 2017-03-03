@@ -26,3 +26,7 @@
     - common
   become: yes
 
+- hosts: frontend
+  roles:
+    - nginx
+  become: yes
