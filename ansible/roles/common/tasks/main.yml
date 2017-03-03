@@ -25,3 +25,10 @@
 # Configure all RedHat family hosts
 - include: redhat.yml
   when: ansible_os_family == "RedHat"
+
+# Create the secnix user
+- name: Create the secnix user
+  user:
+    name: secnix
+    uid: 5000
+    comment: "Secnix Systems"
