@@ -1,0 +1,10 @@
+[Unit]
+Description=Secnix NGINX Socket
+Conflicts=secnix-nginx.service
+
+[Socket]
+ListenStream=80
+Accept=yes
+
+[Install]
+WantedBy=sockets.target

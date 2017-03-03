@@ -1,0 +1,21 @@
+Description=Secnix NGINX
+After=docker.service
+Requires=docker.service
+ 
+[Service]
+TimeoutStartSec=30s
+Restart=never
+
+User=secnix
+Group=root
+
+ExecStartPre=-/usr/bin/docker pull nginx
+ExecStartPre=-/usr/bin/docker create --name secnix-nginx \
+                              -v /vagrant/site:/usr/share/nginx/html:ro \
+                              -p 80:80 docker.io/nginx 
+ExecStart=/usr/bin/docker start -a secnix-nginx
+
+ExecStop=/usr/bin/docker stop secnix-nginx
+
+[Install]
+WantedBy=multi-user.target
