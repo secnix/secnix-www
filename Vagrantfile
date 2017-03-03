@@ -19,6 +19,12 @@
 #
 # Author: Justin Cook <jhcook@secnix.com>
 
+$build_dev = <<__EOF__
+su - vagrant
+cd /vagrant/ansible
+ansible-playbook --private-key=~vagrant/.ssh/id_rsa -i hosts/development -u vagrant secnix-www-dev.yml
+__EOF__
+
 Vagrant.configure(2) do |config|
   config.vm.box = "jhcook/centos7"
   config.vm.network "private_network", ip: "192.168.33.10"
@@ -29,4 +35,5 @@ Vagrant.configure(2) do |config|
   config.vm.provision "shell", path: "secnix-www.sh"
   config.vm.provision "reload"
   config.vm.provision "shell", inline: "ifup eth1 || /bin/true", run: "always"
+  config.vm.provision "shell", inline: $build_dev
 end
