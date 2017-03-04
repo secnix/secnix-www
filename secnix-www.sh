@@ -118,3 +118,9 @@ Host localhost
 __EOF__
   chmod 0644 ~vagrant/.ssh/config
 fi
+
+# Install and configure the secnix web stack
+su - vagrant
+cd /vagrant/ansible
+ansible-playbook --private-key=~vagrant/.ssh/id_rsa -i hosts/development \
+  -u vagrant secnix-www-dev.yml
