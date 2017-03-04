@@ -19,10 +19,11 @@
 #
 # Author: Justin Cook <jhcook@secnix.com>
 
-$build_dev = <<__EOF__
-su - vagrant
-cd /vagrant/ansible
-ansible-playbook --private-key=~vagrant/.ssh/id_rsa -i hosts/development -u vagrant secnix-www-dev.yml
+$final_provision = <<__EOF__
+set -x
+ifup eth1 || /bin/true
+systemctl stop secnix-nginx.service
+systemctl start secnix-nginx.service
 __EOF__
 
 Vagrant.configure(2) do |config|
@@ -34,6 +35,5 @@ Vagrant.configure(2) do |config|
   end
   config.vm.provision "shell", path: "secnix-www.sh"
   config.vm.provision "reload"
-  config.vm.provision "shell", inline: "ifup eth1 || /bin/true", run: "always"
-  config.vm.provision "shell", inline: $build_dev
+  config.vm.provision "shell", inline: $final_provision, run: "always"
 end
