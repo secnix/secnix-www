@@ -23,6 +23,10 @@ $final_provision = <<__EOF__
 set -x
 ifup eth1 || /bin/true
 systemctl stop secnix-nginx.service
+systemctl stop secnix-wordpress.service
+systemctl stop secnix-mariadb.service
+systemctl start secnix-mariadb.service
+systemctl start secnix-wordpress.service
 systemctl start secnix-nginx.service
 __EOF__
 

@@ -14,29 +14,7 @@
 # You should have received a copy of the GNU General Public License
 # along with secnix.com.  If not, see <http://www.gnu.org/licenses/>.
 
-- hosts: all
-  vars_prompt:
-    - name: "redhat_username"
-      prompt: "Enter RedHat username"
-      private: no
-    - name: "redhat_password"
-      prompt: "Enter RedHat password"
-      private: yes
-  roles:
-    - common
-  become: yes
-
-- hosts: frontend
-  roles:
-    - nginx
-  become: yes
-
-- hosts: wpdb
-  roles:
-    - mariadb
-  become: yes
-
-- hosts: wordpress
-  roles:
-    - wordpress
-  become: yes
+mysql_root_password: secnix
+mysql_database: secnix
+mysql_user: secnix
+mysql_password: secnix

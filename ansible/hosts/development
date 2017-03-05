@@ -1,2 +1,8 @@
 [frontend]
 localhost
+
+[wpdb]
+localhost
+
+[wordpress]
+localhost

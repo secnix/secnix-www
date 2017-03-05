@@ -14,29 +14,28 @@
 # You should have received a copy of the GNU General Public License
 # along with secnix.com.  If not, see <http://www.gnu.org/licenses/>.
 
-- hosts: all
-  vars_prompt:
-    - name: "redhat_username"
-      prompt: "Enter RedHat username"
-      private: no
-    - name: "redhat_password"
-      prompt: "Enter RedHat password"
-      private: yes
-  roles:
-    - common
-  become: yes
+- name: Set the secnix-wordpress systemd file
+  template:
+    src: secnix-wordpress.service.j2
+    dest: /etc/systemd/system/secnix-wordpress.service
+    owner: root
+    group: root
+    mode: 0644
+  register: wprs_sysd
 
-- hosts: frontend
-  roles:
-    - nginx
-  become: yes
+- name: systemctl daemon-reload
+  command: systemctl daemon-reload
+  when: wprs_sysd.changed
 
-- hosts: wpdb
-  roles:
-    - mariadb
-  become: yes
+- name: Enable port 9000/tcp public
+  firewalld:
+    port: 9000/tcp
+    zone: public
+    permanent: true
+    state: enabled
 
-- hosts: wordpress
-  roles:
-    - wordpress
-  become: yes
+- name: Enable and start secnix-wordpress
+  service:
+    name: secnix-wordpress
+    enabled: yes
+    state: restarted

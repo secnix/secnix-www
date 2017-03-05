@@ -1,0 +1,67 @@
+---
+# This file is part of secnix.com.
+#
+# secnix.com is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# secnix.com is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with secnix.com.  If not, see <http://www.gnu.org/licenses/>.
+
+- name: Create the mysql group
+  group:
+    name: mysql
+    gid: 27
+    system: yes 
+
+- name: Create the mysql user
+  user:
+    name: mysql
+    uid: 27  
+    group: mysql
+    system: yes
+
+- name: Create the database volume
+  file:
+    dest: /var/lib/mysql
+    state: directory
+    mode: 0755
+
+- name: Set correct context on the volume
+  sefcontext:
+    target: '/var/lib/mysql(/.*)?'
+    setype: svirt_sandbox_file_t
+    state: present
+
+- name: Set the mariadb systemd service file
+  template:
+    src: secnix-mariadb.service.j2
+    dest: /etc/systemd/system/secnix-mariadb.service
+    owner: root
+    group: root
+    mode: 0644
+  register: mariadb_sysd
+
+- name: systemctl daemon-reload
+  command: systemctl daemon-reload
+  when: mariadb_sysd.changed
+
+- name: Enable port 3306/tcp public
+  firewalld:
+    port: 3306/tcp
+    zone: public
+    permanent: true
+    state: enabled
+
+- name: Enable and start mariadb
+  service: 
+    name: secnix-mariadb
+    enabled: yes
+    state: restarted
+  when: mariadb_sysd.changed

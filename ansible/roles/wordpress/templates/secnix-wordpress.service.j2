@@ -16,8 +16,8 @@
 #
 # Author: Justin Cook <jhcook@secnix.com>
 
-Description=Secnix NGINX
-After=docker.service
+Description=Secnix Wordpress
+After=secnix-mariadb.service
 Requires=docker.service
  
 [Service]
@@ -27,17 +27,20 @@ Restart=never
 User=secnix
 Group=root
 
-ExecStartPre=-/usr/bin/docker pull nginx
-ExecStartPre=-/usr/bin/docker create --name secnix-nginx \
-                              -v /vagrant/site:/usr/share/nginx/html:ro \
+ExecStartPre=-/usr/bin/docker pull docker.io/wordpress:php7.1-fpm-alpine
+ExecStartPre=-/usr/bin/docker create --name secnix-wordpress \
+                              -e WORDPRESS_DB_HOST={{ wordpress_db_host }}:3306 \
+                              -e WORDPRESS_DB_USER={{ wordpress_db_user }} \
+                              -e WORDPRESS_DB_PASSWORD={{ wordpress_db_password }} \
+                              -e WORDPRESS_DB_NAME={{ wordpress_db_name }} \
                               -v /vagrant/site/wordpress:/var/www/html \
-                              -v /etc/nginx:/etc/nginx:ro \
-                              -v /var/log/nginx:/var/log/nginx \
                               -v /etc/passwd:/etc/passwd:ro \
-                              -p 80:80 docker.io/nginx 
-ExecStart=/usr/bin/docker start -a secnix-nginx
+                              -u 1000:0 \
+                              -p 9000:9000 docker.io/wordpress:php7.1-fpm-alpine
 
-ExecStop=/usr/bin/docker stop secnix-nginx
+ExecStart=/usr/bin/docker start -a secnix-wordpress
+
+ExecStop=/usr/bin/docker stop secnix-wordpress
 
 [Install]
 WantedBy=multi-user.target
