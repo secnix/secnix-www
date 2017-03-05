@@ -26,7 +26,7 @@
     - global
 
 - name: Place the nginx configuration files
-  file: 
+  copy: 
     src: "{{ item }}"
     dest: "/etc/nginx/{{ item }}"
   with_items:
@@ -35,14 +35,14 @@
     - mime.types
 
 - name: Place the nginx global configuration files
-  file:
+  copy:
     src: "{{ item }}"
     dest: "/etc/nginx/global/{{ item }}"
   with_items:
     - restrictions.conf
 
 - name: Place the sites-enabled configuration files
-  file:
+  copy:
     src: "{{ item }}"
     dest: "/etc/nginx/sites-enabled/{{ item }}"
   with_items:
