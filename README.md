@@ -12,11 +12,11 @@ vagrant-reload plugin.
 
 ## Use
 
-In order to use this repo, please change directories to the directory
-containing this README.md file. 
+In order to use this repo, please change directories to either the directory
+`secnix-box` or `secnix-boxboot` and issue the `vagrant up` command. 
 
 ```
-$ cd ~/repo/secnix-www
+$ cd ~/repo/secnix-www/secnix-box
 $ vagrant up
 ...
 $ vagrant ssh
