@@ -21,18 +21,23 @@
 
 $final_provision = <<__EOF__
 set -x
-ifup eth1 || /bin/true
-systemctl stop secnix-nginx.service
-systemctl stop secnix-wordpress.service
-systemctl stop secnix-mariadb.service
-systemctl start secnix-mariadb.service
-systemctl start secnix-wordpress.service
-systemctl start secnix-nginx.service
+isup="`cat /sys/class/net/eth1/operstate 2>&1 || /bin/true`"
+if [ "\$isup" != "up" ]
+then
+  systemctl stop secnix-nginx.service
+  systemctl stop secnix-wordpress.service
+  systemctl stop secnix-mariadb.service
+  ifup eth1
+  systemctl start secnix-mariadb.service
+  systemctl start secnix-wordpress.service
+  systemctl start secnix-nginx.service
+fi
 __EOF__
 
 Vagrant.configure(2) do |config|
   config.vm.box = "jhcook/centos7"
   config.vm.network "private_network", ip: "192.168.33.10"
+  config.ssh.insert_key = false
   config.vm.provider "virtualbox" do |vb|
     vb.memory = "2048"
     vb.cpus = "2"
