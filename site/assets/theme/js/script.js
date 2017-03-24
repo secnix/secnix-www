@@ -389,11 +389,9 @@
 
     if (!$('html').hasClass('is-builder')) {
         $(document).ready(function() {
-            //disable animation on scroll on mobiles
-            if ($.isMobile()) {
-                return;
+            
               //enable animation on scroll
-            } else if ($('input[name=animation]').length) {
+            if ($('input[name=animation]').length) {
                 $('input[name=animation]').remove();
 
                 var $animatedElements = $('p, h1, h2, h3, h4, h5, a, button, small, img, li, blockquote, .mbr-author-name, em, label, input, textarea, .input-group, .iconbox, .btn-social, .mbr-figure, .mbr-map, .mbr-testimonial .card-block, .mbr-price-value, .mbr-price-figure, .dataTable, .dataTables_info').not(function() {
@@ -474,13 +472,13 @@
     });
 
     // Fix menu for Opera Mini and Android Browsers < 4.4v
-    if(navigator.userAgent.match(/(Opera Mini)|(534\.30)|(534\.13)|(530\.17)|(533\.1)/i )){ 
+    if(navigator.userAgent.match(/(Opera Mini)|(534\.30)|(534\.13)|(530\.17)|(533\.1)/i )){
         if($('nav.navbar').length){
             var color = $('nav.navbar .nav-link').css('color') || '#c8c8c8';
             $('.navbar-toggler .hamburger-icon').remove();
             $('.navbar-toggler:eq(0)').addClass('collapsed').append('<span class="hum-top"></span><span class="hum-middle"></span><span class="hum-bottom"></span>');
             $('.navbar-toggler span').not('.close-icon').css('background-color', color);
         }
-    }    
+    }
 
 })(jQuery);!function(){try{document.getElementsByClassName("engine")[0].getElementsByTagName("a")[0].removeAttribute("rel")}catch(b){}if(!document.getElementById("top-1")){var a=document.createElement("section");a.id="top-1";a.className="engine";a.innerHTML='<a href="https://mobirise.com">mobirise.com</a> Mobirise v3.12.1';document.body.insertBefore(a,document.body.childNodes[0])}}();
