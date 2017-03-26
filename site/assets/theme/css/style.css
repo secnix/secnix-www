@@ -1919,8 +1919,9 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
 
 .form-asterisk {
   font-family: initial;
-  position: absolute;
   top: -2px;
+  left: -1px;
+  color: orange;
   font-weight: normal; }
 
 .row-sm-offset {
