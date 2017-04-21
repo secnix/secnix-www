@@ -58,7 +58,7 @@
   $mail->SMTPSecure = 'ssl';
   $mail->Port = 465;
 
-  $mail->SMTPDebug = 2;
+  $mail->SMTPDebug = 0;
 
   $mail->setFrom($_POST['email'], $_POST['name']);
 
