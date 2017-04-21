@@ -47,7 +47,7 @@
   require './vender/php_mailer/PHPMailerAutoload.php';
   $mail = new PHPMailer;
   $mail->CharSet = 'UTF-8';
-  $mail->isSendMail();
+  $mail->isSMTP();
 
   //change HOST, Username and Password to site details
   $mail->Host = "host.example.com";
