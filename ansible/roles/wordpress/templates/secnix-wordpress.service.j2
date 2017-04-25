@@ -33,7 +33,7 @@ ExecStartPre=-/usr/bin/docker create --name secnix-wordpress \
                               -e WORDPRESS_DB_USER={{ wordpress_db_user }} \
                               -e WORDPRESS_DB_PASSWORD={{ wordpress_db_password }} \
                               -e WORDPRESS_DB_NAME={{ wordpress_db_name }} \
-                              -v /vagrant/site/wordpress:/var/www/html \
+                              -v /opt/secnix/secnix-www/site/wordpress:/var/www/html \
                               -v /etc/passwd:/etc/passwd:ro \
                               -u 1000:0 \
                               -p 9000:9000 docker.io/wordpress:php7.1-fpm-alpine

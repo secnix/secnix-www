@@ -57,10 +57,6 @@ fi
 # Catch errors and gracefully exit
 trap cleanup EXIT INT TERM
 
-# Disable SELinux on the development host
-sed -i 's/SELINUX=enforcing/SELINUX=permissive/' /etc/selinux/config
-setenforce 0
-
 # Ensure the familiar interface names are used
 grep net.ifnames /etc/default/grub && grep biosdevname /etc/default/grub || \
 { sed -i 's/GRUB_CMDLINE_LINUX=""/GRUB_CMDLINE_LINUX="net.ifnames=0 biosdevname=0"/' /etc/default/grub && \

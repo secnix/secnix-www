@@ -14,46 +14,11 @@
 # You should have received a copy of the GNU General Public License
 # along with secnix.com.  If not, see <http://www.gnu.org/licenses/>.
 
-- name: Create /etc/nginx directories
-  file:
-    path: /etc/nginx/{{ item }}
-    state: directory
-    owner: root
-    group: root
-    mode: 0755
-  with_items:
-    - sites-enabled
-    - global
-
-- name: Place the nginx configuration files
-  copy: 
-    src: "{{ item }}"
-    dest: "/etc/nginx/{{ item }}"
-  with_items:
-    - nginx.conf
-    - fastcgi_params
-
-- name: Place the nginx global configuration files
-  copy:
-    src: "{{ item }}"
-    dest: "/etc/nginx/global/{{ item }}"
-  with_items:
-    - restrictions.conf
-
-- name: Place the sites-enabled configuration files
-  copy:
-    src: "{{ item }}"
-    dest: "/etc/nginx/sites-enabled/{{ item }}"
-  with_items:
-    - example.com
-
-- name: Create the nginx log directory
-  file:
-    dest: /var/log/nginx
-    state: directory
-    owner: root
-    group: root
-    mode: 0755
+- name: Set correct context on the volume
+  sefcontext:
+    target: '/opt/secnix(/.*)?'
+    setype: svirt_sandbox_file_t
+    state: present
 
 - name: Place the nginx systemd service file
   copy:
@@ -64,16 +29,19 @@
     mode: 0644
   register: svc_file
 
-- name: update systemd
+- name: Update systemd
   command: systemctl daemon-reload
   when: svc_file.changed
   register: update_systemd
 
-- name: Allow port 80/tcp from public
+- name: Allow port tcp ports from public
   firewalld:
-    service: http
+    service: "{{ item }}"
     permanent: true
     state: enabled
+  with_items:
+  - http
+  - https
 
 - name: enable and start secnix-nginx
   service: 
