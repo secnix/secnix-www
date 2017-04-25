@@ -16,9 +16,10 @@
 #
 # Author: Justin Cook <jhcook@secnix.com>
 
-Description=Secnix NGINX
-After=docker.service
-Requires=docker.service
+[Unit]
+Description=Nginx Docker container (secnix systems)
+After=docker-latest.service
+Requires=docker-latest.service
  
 [Service]
 TimeoutStartSec=60s
@@ -27,17 +28,22 @@ Restart=never
 User=secnix
 Group=root
 
+ExecStartPre=-/usr/bin/docker network create --driver bridge secnix-www
+ExecStartPre=-/usr/bin/docker stop secnix-nginx secnix-php-fpm
+ExecStartPre=-/usr/bin/docker rm secnix-nginx secnix-php-fpm
+ExecStartPre=-/usr/bin/docker pull php:5-fpm
 ExecStartPre=-/usr/bin/docker pull nginx
-ExecStartPre=-/usr/bin/docker create --name secnix-nginx \
-                              -v /vagrant/site:/usr/share/nginx/html:ro \
-                              -v /vagrant/site/wordpress:/var/www/html \
-                              -v /etc/nginx:/etc/nginx:ro \
-                              -v /var/log/nginx:/var/log/nginx \
-                              -v /etc/passwd:/etc/passwd:ro \
-                              -p 80:80 docker.io/nginx 
-ExecStart=/usr/bin/docker start -a secnix-nginx
+ExecStartPre=-/usr/bin/docker run -d --name secnix-php-fpm --network secnix-www \
+              -v /opt/secnix/secnix-www/nginx/www.conf:/usr/local/etc/php-fpm.d/www.conf:ro \
+              -v /opt/secnix/secnix-www/site:/usr/share/nginx/html:ro php:5-fpm
+ExecStart=/usr/bin/docker run --name secnix-nginx --network secnix-www \
+          -v /opt/secnix/secnix-www/nginx/fastcgi_params:/etc/nginx/fastcgi_params \
+          -v /opt/secnix/secnix-www/site:/usr/share/nginx/html:ro \
+          -v /opt/secnix/tls:/usr/share/nginx/tls:ro \
+          -v /opt/secnix/secnix-www/nginx/nginx.conf:/etc/nginx/nginx.conf:ro \
+          -p 80:80 -p 443:443 nginx
 
-ExecStop=/usr/bin/docker stop secnix-nginx
+ExecStop=/usr/bin/docker stop secnix-nginx secnix-php-fpm
 
 [Install]
 WantedBy=multi-user.target

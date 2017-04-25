@@ -124,6 +124,6 @@ fi
 
 # Install and configure the secnix web stack
 su - vagrant
-cd /vagrant/ansible
+cd /opt/secnix/secnix-www/ansible
 ansible-playbook --private-key=~vagrant/.ssh/id_rsa -i hosts/development \
   -u vagrant secnix-www-dev.yml

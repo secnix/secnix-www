@@ -31,8 +31,7 @@
     dest: "/etc/nginx/{{ item }}"
   with_items:
     - nginx.conf
-    - fastcgi.conf
-    - mime.types
+    - fastcgi_params
 
 - name: Place the nginx global configuration files
   copy:
@@ -65,18 +64,9 @@
     mode: 0644
   register: svc_file
 
-- name: Place the nginx systemd socket file
-  copy:
-    src: secnix-nginx.socket
-    dest: /etc/systemd/system/secnix-nginx.socket
-    owner: root
-    group: root
-    mode: 0644
-  register: skt_file
-
 - name: update systemd
   command: systemctl daemon-reload
-  when: svc_file.changed or skt_file.changed
+  when: svc_file.changed
   register: update_systemd
 
 - name: Allow port 80/tcp from public
