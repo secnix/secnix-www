@@ -65,22 +65,22 @@
               </button>
               <ul class="nav-dropdown collapse pull-xs-left nav navbar-nav navbar-toggleable-xl" id="exCollapsingNavbar">
                 <li class="nav-item">
-                  <a class="nav-link link" href="https:www.secnix.co.uk/front-page.php#about">ABOUT</a>
+                  <a class="nav-link link" href="https://www.secnix.co.uk/front-page.php#about">ABOUT</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link link" href="https:www.secnix.co.uk/front-page.php#services">SERVICES</a>
+                  <a class="nav-link link" href="https://www.secnix.co.uk/front-page.php#services">SERVICES</a>
                 </li>
                 <li class="nav-item dropdown">
-                  <a class="nav-link link" href="https:www.secnix.co.uk/front-page.php#support" aria-expanded="true">PACKAGE &amp; SUPPORT</a>
+                  <a class="nav-link link" href="https://www.secnix.co.uk/front-page.php#support" aria-expanded="true">PACKAGE &amp; SUPPORT</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link link" href="https:www.secnix.co.uk/front-page.php#blog1">ENGINEERING TIDBITS</a>
+                  <a class="nav-link link" href="https://www.secnix.co.uk/front-page.php#blog1">ENGINEERING TIDBITS</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link link" href="https:www.secnix.co.uk/front-page.php#contact">CONTACT</a>
+                  <a class="nav-link link" href="https://www.secnix.co.uk/front-page.php#contact">CONTACT</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link link" href="https:www.secnix.co.uk/front-page.php#blog2">RECENT NEWS</a>
+                  <a class="nav-link link" href="https://www.secnix.co.uk/front-page.php#blog2">RECENT NEWS</a>
                 </li>
               </ul>
               <button hidden="" class="navbar-toggler navbar-close" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar">
@@ -89,7 +89,7 @@
             </div>
             <div class="mbr-table-cell">
               <div class="navbar-brand">
-                <a href="" class="navbar-logo"><img src="<?php echo get_template_directory_uri();?>/assets/images/secnix-new.svg" alt="Secnix Systems"></a>
+                <a href="https://www.secnix.com" class="navbar-logo"><img src="<?php echo get_template_directory_uri();?>/assets/images/secnix-new.svg" alt="Secnix Systems"></a>
               </div>
             </div>
           </div>
