@@ -29,7 +29,7 @@
         <br>
         <p>LEGAL
           <br>
-          <br><a href="https://secnix.com/content/privacy.html">Privacy Policy</a></p>
+          <br><a href="https://www.secnix.com/content/privacy.html">Privacy Policy</a></p>
       </div>
     </div>
   </div>
