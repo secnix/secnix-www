@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.secnix.com/sitemap-03-02-2019.xml

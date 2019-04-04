@@ -1,0 +1,861 @@
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://www.secnix.com/</loc>
+    <lastmod>2019-02-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://www.secnix.com/wp-content/uploads/2019/01/aws-serverless-contact-form-wp.png</image:loc>
+      <image:title>aws serverless HTML contact form</image:title>
+      <image:caption>aws serverless HTML contact form</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.secnix.com/branding/</loc>
+    <lastmod>2019-02-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.secnix.com/engineering-titbits/build-serverless-contact-forms-for-amazon-s3-static-websites-with-aws-lambda-amazon-api-gateway-and-amazon-ses-aws-console/</loc>
+    <lastmod>2019-02-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://www.secnix.com/wp-content/uploads/2019/01/aws-serverless-contact-form-wp.png</image:loc>
+      <image:title>aws serverless HTML contact form</image:title>
+      <image:caption>aws serverless HTML contact form</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.secnix.com/wp-content/uploads/2019/01/aws-serverless-contact-form-1-1024x511.jpg</image:loc>
+      <image:title>aws serverless HTML contact form</image:title>
+      <image:caption>aws serverless HTML contact form</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.secnix.com/wp-content/uploads/2019/01/aws-serverless-contact-form-2-1024x391.jpg</image:loc>
+      <image:title>aws serverless HTML contact form</image:title>
+      <image:caption>aws serverless HTML contact form</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.secnix.com/wp-content/uploads/2019/01/aws-serverless-contact-form-3-1024x469.jpg</image:loc>
+      <image:title>aws serverless HTML contact form</image:title>
+      <image:caption>aws serverless HTML contact form</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.secnix.com/wp-content/uploads/2019/01/aws-serverless-contact-form-4-1024x343.jpg</image:loc>
+      <image:title>aws serverless HTML contact form</image:title>
+      <image:caption>aws serverless HTML contact form</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.secnix.com/wp-content/uploads/2019/01/aws-serverless-contact-form-5-1024x313.jpg</image:loc>
+      <image:title>aws serverless HTML contact form</image:title>
+      <image:caption>aws serverless HTML contact form</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.secnix.com/wp-content/uploads/2019/01/aws-serverless-contact-form-6-1024x531.jpg</image:loc>
+      <image:title>aws serverless HTML contact form</image:title>
+      <image:caption>aws serverless HTML contact form</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.secnix.com/wp-content/uploads/2019/01/aws-serverless-contact-form-7-1024x491.jpg</image:loc>
+      <image:title>aws serverless HTML contact form</image:title>
+      <image:caption>aws serverless HTML contact form</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.secnix.com/wp-content/uploads/2019/01/aws-serverless-contact-form-8.jpg</image:loc>
+      <image:title>aws serverless HTML contact form</image:title>
+      <image:caption>aws serverless HTML contact form</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.secnix.com/wp-content/uploads/2019/01/aws-serverless-contact-form-9-1024x284.jpg</image:loc>
+      <image:title>aws serverless HTML contact form</image:title>
+      <image:caption>aws serverless HTML contact form</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.secnix.com/wp-content/uploads/2019/01/aws-serverless-contact-form-10-1024x520.jpg</image:loc>
+      <image:title>aws serverless HTML contact form</image:title>
+      <image:caption>aws serverless HTML contact form</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.secnix.com/wp-content/uploads/2019/01/aws-serverless-contact-form-11.jpg</image:loc>
+      <image:title>aws serverless HTML contact form</image:title>
+      <image:caption>aws serverless HTML contact form</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.secnix.com/wp-content/uploads/2019/01/aws-serverless-contact-form-12-1024x660.jpg</image:loc>
+      <image:title>aws serverless HTML contact form</image:title>
+      <image:caption>aws serverless HTML contact form</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.secnix.com/wp-content/uploads/2019/01/aws-serverless-contact-form-13-1024x431.jpg</image:loc>
+      <image:title>aws serverless HTML contact form</image:title>
+      <image:caption>aws serverless HTML contact form</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.secnix.com/wp-content/uploads/2019/01/aws-serverless-contact-form-15-1024x681.jpg</image:loc>
+      <image:title>aws serverless HTML contact form</image:title>
+      <image:caption>aws serverless HTML contact form</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.secnix.com/wp-content/uploads/2019/01/aws-serverless-contact-form-16.jpg</image:loc>
+      <image:title>aws serverless HTML contact form</image:title>
+      <image:caption>aws serverless HTML contact form</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.secnix.com/wp-content/uploads/2019/01/aws-serverless-contact-form-17.jpg</image:loc>
+      <image:title>aws serverless HTML contact form</image:title>
+      <image:caption>aws serverless HTML contact form</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.secnix.com/wp-content/uploads/2019/01/aws-serverless-contact-form-18-1024x375.jpg</image:loc>
+      <image:title>aws serverless HTML contact form</image:title>
+      <image:caption>aws serverless HTML contact form</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.secnix.com/wp-content/uploads/2019/01/aws-serverless-contact-form-19.jpg</image:loc>
+      <image:title>aws serverless HTML contact form</image:title>
+      <image:caption>aws serverless HTML contact form</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.secnix.com/wp-content/uploads/2019/01/aws-serverless-contact-form-20.jpg</image:loc>
+      <image:title>aws serverless HTML contact form</image:title>
+      <image:caption>aws serverless HTML contact form</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.secnix.com/wp-content/uploads/2019/01/aws-serverless-contact-form-21-1024x423.jpg</image:loc>
+      <image:title>aws serverless HTML contact form</image:title>
+      <image:caption>aws serverless HTML contact form</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.secnix.com/wp-content/uploads/2019/01/aws-serverless-contact-form-22-1024x282.jpg</image:loc>
+      <image:title>aws serverless HTML contact form</image:title>
+      <image:caption>aws serverless HTML contact form</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.secnix.com/wp-content/uploads/2019/01/html-bootstrap-contact-form-1024x591.png</image:loc>
+      <image:title>aws serverless HTML contact form</image:title>
+      <image:caption>aws serverless HTML contact form</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.secnix.com/web-development/</loc>
+    <lastmod>2019-02-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://www.secnix.com/wp-content/themes/secnixwordpress/assets/images/tech/html5.png</image:loc>
+      <image:title>HTML5</image:title>
+      <image:caption>HTML5</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.secnix.com/wp-content/themes/secnixwordpress/assets/images/tech/css3.png</image:loc>
+      <image:title>CSS3</image:title>
+      <image:caption>CSS3</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.secnix.com/wp-content/themes/secnixwordpress/assets/images/tech/js.png</image:loc>
+      <image:title>JS</image:title>
+      <image:caption>JS</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.secnix.com/wp-content/themes/secnixwordpress/assets/images/tech/bootstrap.png</image:loc>
+      <image:title>Bootstrap</image:title>
+      <image:caption>Bootstrap</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.secnix.com/wp-content/themes/secnixwordpress/assets/images/tech/google-material-design.png</image:loc>
+      <image:title>Google Material Design</image:title>
+      <image:caption>Google Material Design</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.secnix.com/wp-content/themes/secnixwordpress/assets/images/tech/jquery.png</image:loc>
+      <image:title>Jquery</image:title>
+      <image:caption>Jquery</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.secnix.com/wp-content/themes/secnixwordpress/assets/images/tech/wordpress.png</image:loc>
+      <image:title>WordPress</image:title>
+      <image:caption>WordPress</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.secnix.com/wp-content/themes/secnixwordpress/assets/images/tech/php.png</image:loc>
+      <image:title>PHP</image:title>
+      <image:caption>PHP</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.secnix.com/wp-content/themes/secnixwordpress/assets/images/tech/angular.png</image:loc>
+      <image:title>Angular JS</image:title>
+      <image:caption>Angular JS</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.secnix.com/wp-content/themes/secnixwordpress/assets/images/tech/chrome.png</image:loc>
+      <image:title>Chrome Dev Tools</image:title>
+      <image:caption>Chrome Dev Tools</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.secnix.com/wp-content/themes/secnixwordpress/assets/images/tech/github.png</image:loc>
+      <image:title>Github</image:title>
+      <image:caption>Github</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.secnix.com/distributed-systems/</loc>
+    <lastmod>2019-02-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://www.secnix.com/wp-content/themes/secnixwordpress/assets/images/tech/redhat.png</image:loc>
+      <image:title>Red Hat</image:title>
+      <image:caption>Red Hat</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.secnix.com/wp-content/themes/secnixwordpress/assets/images/tech/aws.png</image:loc>
+      <image:title>Amazon Web Services - AWS</image:title>
+      <image:caption>Amazon Web Services - AWS</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.secnix.com/wp-content/themes/secnixwordpress/assets/images/tech/azure.png</image:loc>
+      <image:title>Microsoft Azure</image:title>
+      <image:caption>Microsoft Azure</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.secnix.com/wp-content/themes/secnixwordpress/assets/images/tech/kubernetes.png</image:loc>
+      <image:title>Kubernetes</image:title>
+      <image:caption>Kubernetes</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.secnix.com/wp-content/themes/secnixwordpress/assets/images/tech/openstack.png</image:loc>
+      <image:title>OpenStack</image:title>
+      <image:caption>OpenStack</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.secnix.com/wp-content/themes/secnixwordpress/assets/images/tech/openshift.png</image:loc>
+      <image:title>OpenShift</image:title>
+      <image:caption>OpenShift</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.secnix.com/wp-content/themes/secnixwordpress/assets/images/tech/ansible.png</image:loc>
+      <image:title>Ansible</image:title>
+      <image:caption>Ansible</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.secnix.com/wp-content/themes/secnixwordpress/assets/images/tech/spring.png</image:loc>
+      <image:title>Spring</image:title>
+      <image:caption>Spring</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.secnix.com/blog/</loc>
+    <lastmod>2019-02-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://www.secnix.com/wp-content/uploads/2019/01/aws-serverless-contact-form-wp.png</image:loc>
+      <image:title>aws serverless HTML contact form</image:title>
+      <image:caption>aws serverless HTML contact form</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.secnix.com/social-media/</loc>
+    <lastmod>2019-02-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.secnix.com/ecommerce-stores/</loc>
+    <lastmod>2019-02-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.secnix.com/web-services/</loc>
+    <lastmod>2019-02-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.secnix.com/maintenance/</loc>
+    <lastmod>2019-02-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://www.secnix.com/wp-content/themes/secnixwordpress/assets/images/tech/redhat.png</image:loc>
+      <image:title>Red Hat</image:title>
+      <image:caption>Red Hat</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.secnix.com/wp-content/themes/secnixwordpress/assets/images/tech/aws.png</image:loc>
+      <image:title>Amazon Web Services - AWS</image:title>
+      <image:caption>Amazon Web Services - AWS</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.secnix.com/wp-content/themes/secnixwordpress/assets/images/tech/azure.png</image:loc>
+      <image:title>Microsoft Azure</image:title>
+      <image:caption>Microsoft Azure</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.secnix.com/wp-content/themes/secnixwordpress/assets/images/tech/kubernetes.png</image:loc>
+      <image:title>Kubernetes</image:title>
+      <image:caption>Kubernetes</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.secnix.com/wp-content/themes/secnixwordpress/assets/images/tech/openstack.png</image:loc>
+      <image:title>OpenStack</image:title>
+      <image:caption>OpenStack</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.secnix.com/wp-content/themes/secnixwordpress/assets/images/tech/openshift.png</image:loc>
+      <image:title>OpenShift</image:title>
+      <image:caption>OpenShift</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.secnix.com/wp-content/themes/secnixwordpress/assets/images/tech/ansible.png</image:loc>
+      <image:title>Ansible</image:title>
+      <image:caption>Ansible</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.secnix.com/wp-content/themes/secnixwordpress/assets/images/tech/spring.png</image:loc>
+      <image:title>Spring</image:title>
+      <image:caption>Spring</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.secnix.com/engineering-titbits/distributed-containerised-infrastructure/</loc>
+    <lastmod>2019-02-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.secnix.com/marketing-services/</loc>
+    <lastmod>2019-02-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.secnix.com/tag/aws-lambda/</loc>
+    <lastmod>2019-02-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://www.secnix.com/wp-content/uploads/2019/01/aws-serverless-contact-form-wp.png</image:loc>
+      <image:title>aws serverless HTML contact form</image:title>
+      <image:caption>aws serverless HTML contact form</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.secnix.com/privacy/</loc>
+    <lastmod>2019-02-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.secnix.com/systems-services/</loc>
+    <lastmod>2019-02-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.secnix.com/</loc>
+    <lastmod>2019-02-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://www.secnix.com/wp-content/uploads/2019/01/aws-serverless-contact-form-wp.png</image:loc>
+      <image:title>aws serverless HTML contact form</image:title>
+      <image:caption>aws serverless HTML contact form</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.secnix.com/engineering-titbits/container-native-monitoring-peeling-the-onion/</loc>
+    <lastmod>2019-02-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.secnix.com/infrastructure/</loc>
+    <lastmod>2019-02-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://www.secnix.com/wp-content/themes/secnixwordpress/assets/images/tech/redhat.png</image:loc>
+      <image:title>Red Hat</image:title>
+      <image:caption>Red Hat</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.secnix.com/wp-content/themes/secnixwordpress/assets/images/tech/aws.png</image:loc>
+      <image:title>Amazon Web Services - AWS</image:title>
+      <image:caption>Amazon Web Services - AWS</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.secnix.com/wp-content/themes/secnixwordpress/assets/images/tech/azure.png</image:loc>
+      <image:title>Microsoft Azure</image:title>
+      <image:caption>Microsoft Azure</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.secnix.com/wp-content/themes/secnixwordpress/assets/images/tech/kubernetes.png</image:loc>
+      <image:title>Kubernetes</image:title>
+      <image:caption>Kubernetes</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.secnix.com/wp-content/themes/secnixwordpress/assets/images/tech/openstack.png</image:loc>
+      <image:title>OpenStack</image:title>
+      <image:caption>OpenStack</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.secnix.com/wp-content/themes/secnixwordpress/assets/images/tech/openshift.png</image:loc>
+      <image:title>OpenShift</image:title>
+      <image:caption>OpenShift</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.secnix.com/wp-content/themes/secnixwordpress/assets/images/tech/ansible.png</image:loc>
+      <image:title>Ansible</image:title>
+      <image:caption>Ansible</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.secnix.com/wp-content/themes/secnixwordpress/assets/images/tech/spring.png</image:loc>
+      <image:title>Spring</image:title>
+      <image:caption>Spring</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.secnix.com/seo/</loc>
+    <lastmod>2019-02-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.secnix.com/cloud-native/</loc>
+    <lastmod>2019-02-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://www.secnix.com/wp-content/themes/secnixwordpress/assets/images/tech/redhat.png</image:loc>
+      <image:title>Red Hat</image:title>
+      <image:caption>Red Hat</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.secnix.com/wp-content/themes/secnixwordpress/assets/images/tech/aws.png</image:loc>
+      <image:title>Amazon Web Services - AWS</image:title>
+      <image:caption>Amazon Web Services - AWS</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.secnix.com/wp-content/themes/secnixwordpress/assets/images/tech/azure.png</image:loc>
+      <image:title>Microsoft Azure</image:title>
+      <image:caption>Microsoft Azure</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.secnix.com/wp-content/themes/secnixwordpress/assets/images/tech/kubernetes.png</image:loc>
+      <image:title>Kubernetes</image:title>
+      <image:caption>Kubernetes</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.secnix.com/wp-content/themes/secnixwordpress/assets/images/tech/openstack.png</image:loc>
+      <image:title>OpenStack</image:title>
+      <image:caption>OpenStack</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.secnix.com/wp-content/themes/secnixwordpress/assets/images/tech/openshift.png</image:loc>
+      <image:title>OpenShift</image:title>
+      <image:caption>OpenShift</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.secnix.com/wp-content/themes/secnixwordpress/assets/images/tech/ansible.png</image:loc>
+      <image:title>Ansible</image:title>
+      <image:caption>Ansible</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.secnix.com/wp-content/themes/secnixwordpress/assets/images/tech/spring.png</image:loc>
+      <image:title>Spring</image:title>
+      <image:caption>Spring</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.secnix.com/tag/web-development/</loc>
+    <lastmod>2019-02-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://www.secnix.com/wp-content/uploads/2019/01/aws-serverless-contact-form-wp.png</image:loc>
+      <image:title>aws serverless HTML contact form</image:title>
+      <image:caption>aws serverless HTML contact form</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.secnix.com/tag/aws-console/</loc>
+    <lastmod>2019-02-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://www.secnix.com/wp-content/uploads/2019/01/aws-serverless-contact-form-wp.png</image:loc>
+      <image:title>aws serverless HTML contact form</image:title>
+      <image:caption>aws serverless HTML contact form</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.secnix.com/engineering-titbits/single-page-app-angular-5-bootstrap-4-node-js/</loc>
+    <lastmod>2019-02-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.secnix.com/category/engineering-titbits/</loc>
+    <lastmod>2019-02-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://www.secnix.com/wp-content/uploads/2019/01/aws-serverless-contact-form-wp.png</image:loc>
+      <image:title>aws serverless HTML contact form</image:title>
+      <image:caption>aws serverless HTML contact form</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.secnix.com/tag/ci-cd/</loc>
+    <lastmod>2019-02-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.secnix.com/engineering-titbits/12-factor-app-in-openshift/</loc>
+    <lastmod>2019-02-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.secnix.com/tag/amazon-api-gateway/</loc>
+    <lastmod>2019-02-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://www.secnix.com/wp-content/uploads/2019/01/aws-serverless-contact-form-wp.png</image:loc>
+      <image:title>aws serverless HTML contact form</image:title>
+      <image:caption>aws serverless HTML contact form</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.secnix.com/tag/aws/</loc>
+    <lastmod>2019-02-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://www.secnix.com/wp-content/uploads/2019/01/aws-serverless-contact-form-wp.png</image:loc>
+      <image:title>aws serverless HTML contact form</image:title>
+      <image:caption>aws serverless HTML contact form</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.secnix.com/tag/openshift/</loc>
+    <lastmod>2019-02-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.secnix.com/category/latest-news/</loc>
+    <lastmod>2019-02-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.secnix.com/campaigns/</loc>
+    <lastmod>2019-02-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.secnix.com/content-design/</loc>
+    <lastmod>2019-02-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.secnix.com/responsive-websites/</loc>
+    <lastmod>2019-02-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://www.secnix.com/wp-content/themes/secnixwordpress/assets/images/tech/html5.png</image:loc>
+      <image:title>HTML5</image:title>
+      <image:caption>HTML5</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.secnix.com/wp-content/themes/secnixwordpress/assets/images/tech/css3.png</image:loc>
+      <image:title>CSS3</image:title>
+      <image:caption>CSS3</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.secnix.com/wp-content/themes/secnixwordpress/assets/images/tech/js.png</image:loc>
+      <image:title>JS</image:title>
+      <image:caption>JS</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.secnix.com/wp-content/themes/secnixwordpress/assets/images/tech/bootstrap.png</image:loc>
+      <image:title>Bootstrap</image:title>
+      <image:caption>Bootstrap</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.secnix.com/wp-content/themes/secnixwordpress/assets/images/tech/google-material-design.png</image:loc>
+      <image:title>Google Material Design</image:title>
+      <image:caption>Google Material Design</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.secnix.com/wp-content/themes/secnixwordpress/assets/images/tech/jquery.png</image:loc>
+      <image:title>Jquery</image:title>
+      <image:caption>Jquery</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.secnix.com/wp-content/themes/secnixwordpress/assets/images/tech/wordpress.png</image:loc>
+      <image:title>WordPress</image:title>
+      <image:caption>WordPress</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.secnix.com/wp-content/themes/secnixwordpress/assets/images/tech/php.png</image:loc>
+      <image:title>PHP</image:title>
+      <image:caption>PHP</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.secnix.com/wp-content/themes/secnixwordpress/assets/images/tech/angular.png</image:loc>
+      <image:title>Angular JS</image:title>
+      <image:caption>Angular JS</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.secnix.com/wp-content/themes/secnixwordpress/assets/images/tech/chrome.png</image:loc>
+      <image:title>Chrome Dev Tools</image:title>
+      <image:caption>Chrome Dev Tools</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.secnix.com/wp-content/themes/secnixwordpress/assets/images/tech/atom.png</image:loc>
+      <image:title>Atom</image:title>
+      <image:caption>Atom</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.secnix.com/wp-content/themes/secnixwordpress/assets/images/tech/github.png</image:loc>
+      <image:title>Github</image:title>
+      <image:caption>Github</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.secnix.com/automation/</loc>
+    <lastmod>2019-02-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://www.secnix.com/wp-content/themes/secnixwordpress/assets/images/tech/redhat.png</image:loc>
+      <image:title>Red Hat</image:title>
+      <image:caption>Red Hat</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.secnix.com/wp-content/themes/secnixwordpress/assets/images/tech/aws.png</image:loc>
+      <image:title>Amazon Web Services - AWS</image:title>
+      <image:caption>Amazon Web Services - AWS</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.secnix.com/wp-content/themes/secnixwordpress/assets/images/tech/azure.png</image:loc>
+      <image:title>Microsoft Azure</image:title>
+      <image:caption>Microsoft Azure</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.secnix.com/wp-content/themes/secnixwordpress/assets/images/tech/kubernetes.png</image:loc>
+      <image:title>Kubernetes</image:title>
+      <image:caption>Kubernetes</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.secnix.com/wp-content/themes/secnixwordpress/assets/images/tech/openstack.png</image:loc>
+      <image:title>OpenStack</image:title>
+      <image:caption>OpenStack</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.secnix.com/wp-content/themes/secnixwordpress/assets/images/tech/openshift.png</image:loc>
+      <image:title>OpenShift</image:title>
+      <image:caption>OpenShift</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.secnix.com/wp-content/themes/secnixwordpress/assets/images/tech/ansible.png</image:loc>
+      <image:title>Ansible</image:title>
+      <image:caption>Ansible</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.secnix.com/wp-content/themes/secnixwordpress/assets/images/tech/spring.png</image:loc>
+      <image:title>Spring</image:title>
+      <image:caption>Spring</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.secnix.com/contact/</loc>
+    <lastmod>2019-02-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.secnix.com/engineering-titbits/shared-hosting-glibc-not-found/</loc>
+    <lastmod>2019-02-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.secnix.com/engineering-titbits/container-native-monitoring/</loc>
+    <lastmod>2019-02-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.secnix.com/tag/git/</loc>
+    <lastmod>2019-02-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.secnix.com/tag/mobile/</loc>
+    <lastmod>2019-02-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.secnix.com/tag/serverless/</loc>
+    <lastmod>2019-02-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://www.secnix.com/wp-content/uploads/2019/01/aws-serverless-contact-form-wp.png</image:loc>
+      <image:title>aws serverless HTML contact form</image:title>
+      <image:caption>aws serverless HTML contact form</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.secnix.com/tag/monitoring/</loc>
+    <lastmod>2019-02-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.secnix.com/tag/kubernetes/</loc>
+    <lastmod>2019-02-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.secnix.com/tag/ansible/</loc>
+    <lastmod>2019-02-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.secnix.com/tag/amazon-s3/</loc>
+    <lastmod>2019-02-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://www.secnix.com/wp-content/uploads/2019/01/aws-serverless-contact-form-wp.png</image:loc>
+      <image:title>aws serverless HTML contact form</image:title>
+      <image:caption>aws serverless HTML contact form</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.secnix.com/tag/amazon/</loc>
+    <lastmod>2019-02-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://www.secnix.com/wp-content/uploads/2019/01/aws-serverless-contact-form-wp.png</image:loc>
+      <image:title>aws serverless HTML contact form</image:title>
+      <image:caption>aws serverless HTML contact form</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.secnix.com/tag/html/</loc>
+    <lastmod>2019-02-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://www.secnix.com/wp-content/uploads/2019/01/aws-serverless-contact-form-wp.png</image:loc>
+      <image:title>aws serverless HTML contact form</image:title>
+      <image:caption>aws serverless HTML contact form</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.secnix.com/tag/spring/</loc>
+    <lastmod>2019-02-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.secnix.com/tag/docker/</loc>
+    <lastmod>2019-02-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.secnix.com/tag/nodejs/</loc>
+    <lastmod>2019-02-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://www.secnix.com/wp-content/uploads/2019/01/aws-serverless-contact-form-wp.png</image:loc>
+      <image:title>aws serverless HTML contact form</image:title>
+      <image:caption>aws serverless HTML contact form</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.secnix.com/tag/container-native/</loc>
+    <lastmod>2019-02-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.secnix.com/tag/angular/</loc>
+    <lastmod>2019-02-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.secnix.com/tag/development/</loc>
+    <lastmod>2019-02-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.secnix.com/tag/limited-access/</loc>
+    <lastmod>2019-02-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.secnix.com/tag/glibc-version-not-found/</loc>
+    <lastmod>2019-02-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.secnix.com/tag/bootstrap/</loc>
+    <lastmod>2019-02-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://www.secnix.com/wp-content/uploads/2019/01/aws-serverless-contact-form-wp.png</image:loc>
+      <image:title>aws serverless HTML contact form</image:title>
+      <image:caption>aws serverless HTML contact form</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.secnix.com/latest-news/openshift-commons-gathering-london/</loc>
+    <lastmod>2019-02-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.secnix.com/tag/amazon-ses/</loc>
+    <lastmod>2019-02-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://www.secnix.com/wp-content/uploads/2019/01/aws-serverless-contact-form-wp.png</image:loc>
+      <image:title>aws serverless HTML contact form</image:title>
+      <image:caption>aws serverless HTML contact form</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.secnix.com/tag/python/</loc>
+    <lastmod>2019-02-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+</urlset>
